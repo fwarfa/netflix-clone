@@ -1,44 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# NETFLIX-CLONE
+![Screen Shot](public/netflix-clone-sc.png)
 
-## Available Scripts
+# Description
+In this project, I tackle the challenge of creating a clone of the Netflix Web Application. 
+This Netflix clone was possible using the [TMDB API](https://www.themoviedb.org/?language=en-US), which provided
+a movie posters, descriptions, top movies in varies genres, and more. 
 
-In the project directory, you can run:
+Currently, A user is able to see the different movie names, descriptions, and posters. I am additional working on loading the trailer for each movie for the user to play as well. As of now, the movies are not interactive upon click.
 
-### `npm start`
+# Preview
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screen Shot](public/netflix-clone-preview.gif)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Prequisites and Installation
 
-### `npm test`
+To get started, make sure to do the following steps:
+1. Run the following commands:
+  - `npm install`
+  - [TMDB API KEY](https://developers.themoviedb.org/3/getting-started) stored as environment variable under the name:      REACT_APP_TMDB_API_KEY
+  - `npm run start`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technologies Used
+- [React](https://reactjs.org/) 
+- [Redux](https://react-redux.js.org/)
+- HTML
+- CSS
+- Firebase (hosting)
 
-### `npm run build`
+# Features Coming Soon
+- Add Trailers for the movies
+- Authentication and Sign up
+- Choosing a subscription plan & payment integration with Stripe (for learning purposes. No real payment plans will be sold)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Disclaimer: This app is for learning purposes and is not intended to sell or use any data for commercial use.
